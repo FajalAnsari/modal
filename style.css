@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styles for the modal */
+.PaymentTerminal-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+   
+    /* box-shadow: ; */
+}
+
+
+
+.PaymentTerminal-content {
+    /* height: 340px; */
+    width: 647px;
+    background-color: #ffffff;
+    border-radius: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px 0px 10px 10px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.modal-header {
+    background-color: #3CAAE0;
+    height: 55px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+    width: 89.6%;
+    display: inline-block;
+ 
+}
+
+#p1 {
+    font-weight: 600;
+    color: #0000008a;
+}
+
+#p2 {
+    font-size: 14px;
+    margin-top: 0px;
+    color: #0000008a;
+
+}
+
+#p2 span {
+    color: #C30017;
+}
+
+.modal-body {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 39px;
+}
+.modal-body img{
+    height: 100px;
+}
+
+.modal-body h3 {
+    color: #3BB54A;
+}
+
+#p3 {
+    margin-top: 33px;
+    color: #9C9C9C;
+    font-size: 13px;
+}
+
+#amount-value,
+#order-value {
+    color: #3CAAE0;
+    font-weight: bold;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #fe0000ad;
+    width: 67.3px;
+    text-align: center;
+    height: 60px;
+}
+
+.close img {
+    margin-top: 18px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* instruction style  */
+.modal-body-inst{
+    display: flex;
+    justify-content: center;
+}
+.modal-body-inst p{
+    margin: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #00000094;
+}
+
+.swipemachine img{
+    height: 250px;
+    margin-right: 79px;
+}

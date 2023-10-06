@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Payment Succeeded</title>
+</head>
+
+<body>
+
+    <div id="PaymentTerminal" class="PaymentTerminal-modal">
+        <div class="PaymentTerminal-content">
+            <div class="modal-header">
+                <p id="p1">PAYMENT TERMINAL</p>
+                <p id="p2">Follow the Terminal Instructions and <span>Tap | Swipe | Insert</span> the Card </p>
+
+            </div>
+            <span class="close" id="closeModalBtn"><img src="close-icon.svg" alt=""></span>
+
+            <!-- Succeeded & Failed  -->
+            <div class="modal-body">
+                <img src="Success.svg" alt="">
+                <h3>Payment Succeeded</h3>
+                <p id="p3">Order Number is <span id="order-value">5</span> and Paid Amount is <span
+                        id="amount-value">44.00 AED</span></p>
+            </div>
+
+            <!-- Succeeded & Failed End  -->
+
+
+            <!-- Instruction  -->
+            <!-- <div class="modal-body">
+                <div class="modal-body-inst">
+                    <div>
+                        <p>Order No : <span id="order-value">5</span></p>
+                    </div>
+                    <div>
+                        <p>Amount : <span id="amount-value">44.00</span></p>
+                    </div>
+                </div>
+                <p id="p3">Use the card reader below to pay and complete the your order</p>
+                <div class="swipemachine">
+                    <img src="credit-card-swipe.png" alt="">
+                </div>
+            </div> -->
+            <!-- Instruction  end  -->
+
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
